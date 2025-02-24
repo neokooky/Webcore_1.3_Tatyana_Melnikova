@@ -167,17 +167,17 @@ button {
 
 
 .hero__paragraph,
-.button__view-more {
+.button--view-more {
     margin: 0 16px 16px;
 }
 
-.button__view-more {
+.button--view-more {
     position: relative;
     padding-left: 15px;
     font-size: 16px;
 }
 
-.button__view-more::after {
+.button--view-more::after {
     content: "";
     position: absolute;
     left: 0;
@@ -189,7 +189,7 @@ button {
     transform: translateY(-50%) rotate(45deg);
 }
 
-.button__view-more::before {
+.button--view-more::before {
     content: "";
     position: absolute;
     left: 0;
